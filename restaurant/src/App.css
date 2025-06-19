@@ -1,0 +1,253 @@
+.carousel-caption {
+  top: 33%;
+  width: 70%;
+}
+
+.navb {
+  text-decoration: none;
+  color: rgb(93, 92, 92) !important;
+}
+
+.hi1 {
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  display: inline-block;
+  border-bottom: 3px solid #ffc107;
+  padding-bottom: 8px;
+}
+
+.btn0 {
+  border-radius: 40px !important;
+  padding: 10px 30px !important;
+  border: 1px solid white !important;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+.btn0:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn1 {
+  border-radius: 40px !important;
+  padding: 10px 30px !important;
+  color: white !important;
+  background-color: #ca8e46 !important;
+  border: none;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: white !important;
+  color: black !important;
+  border: none;
+}
+
+.textc {
+  color: #ca8e46;
+  font-family: 'Allura';
+  font-size: 28px;
+  font-style: italic;
+}
+.text{
+  color: #828181;
+  font-family: 'Allura';
+  font-size: 19px;
+}
+.text1{
+  color: #504f4f;
+  font-family: 'Allura';
+  font-size: 18px;
+}
+.hi6-0
+{
+  font-size: 15px;
+  line-height: 8px;
+}
+.hr1 {
+  width: 7% !important;
+  margin: 20px auto;
+  border-color: #ff8c00;
+  border-width: 3px;
+}
+
+.hi3 {
+  border-bottom: 2px solid #ca8e46;
+  padding-bottom: 15px;
+}
+
+.border1 {
+  border: solid 1px rgba(255, 255, 255, .5);
+  position: absolute;
+  width: 95%;
+  height: 70%;
+  margin: 2% 0px 0px 2%;
+  z-index: 1;
+}
+
+/* Large screen: 993px and above */
+@media (min-width: 993px) {
+  .bg-img-cover {
+    height: 700px;
+  }
+}
+
+/* Medium screen: 769px to 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .bg-img-cover {
+    height: 500px;
+  }
+
+  .border1 {
+    border: solid 1px rgba(255, 255, 255, .5);
+    position: absolute;
+    width: 95%;
+    height: 49%;
+    margin: 2% 0px 0px 2%;
+    z-index: 1;
+  }
+  .controlsm{
+    width: 90% !important;
+    font-size: 14px;
+  }
+}
+
+/* Tablet screen: 577px to 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+  .bg-img-cover {
+    height: 1000px;
+  }
+  .controlsm {
+    width: 90% !important; 
+    font-size: 14px;
+  }
+  .hi1 {
+    font-size: 28px;
+  }
+
+  .textc {
+    font-size: 16px;
+  }
+
+  .btn0,
+  .btn1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .hi3 {
+    font-size: 18px;
+  }
+
+  .border1 {
+    border: solid 1px rgba(255, 255, 255, .5);
+    position: absolute;
+    width: 95%;
+    height: 66%;
+    margin: 2% 0px 0px 2%;
+    z-index: 1;
+  }
+}
+
+/* Small/mobile screens: up to 576px */
+@media (max-width: 576px) {
+  .bg-img-cover {
+    height: 1000px;
+  }
+  .hi1{
+    font-size: 20px;
+  }
+  .border1 {
+    border: solid 1px rgba(255, 255, 255, .5);
+    position: absolute;
+    width: 95%;
+    height: 58%;
+    margin: 2% 0px 0px 2%;
+    z-index: 1;
+  }
+  .controlsm {
+    width: 90% !important; 
+    font-size: 14px;
+  }
+}
+
+.border2 {
+  border: solid 2px rgba(16, 15, 15, 0.5);
+}
+
+.btn2 {
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-size: 22px;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+.img {
+  width: 80px;
+  border-radius: 60px;
+}
+.hi6 {
+  font-family: "Montserrat";
+  color: #222;
+  font-weight: bold;
+  display: table-cell;
+  font-size: 19px;
+}
+.c1 {
+  border-bottom: 1px dashed #aaa;
+  display: table-cell;
+  width: 82% !important;
+}
+.c1-0 {
+  border-bottom: 1px dashed #aaa;
+  display: table-cell;
+  width: 81% !important;
+}
+.c1-1{
+  border-bottom: 1px dashed #aaa;
+  display: table-cell;
+  width: 59% !important;
+}
+.c2 {
+  color: #ca8e46;
+  display: table-cell;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+.c3 {
+  font-size: 17px;
+  font-family: "Lora";
+  color: #938b8b;
+}
+.my-6
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.my-7
+{
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+.formcolor {
+  background-color: rgb(43, 42, 42) !important;
+  color: white;
+  border: none !important;
+}
+
+.formcolor::placeholder {
+  color: #ccc !important; /* Light gray or any color you like */
+}
+.formcolor:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+.color{
+  background-color: rgb(245, 245, 245);
+}
