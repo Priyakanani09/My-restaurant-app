@@ -9,9 +9,9 @@ function Menu1() {
         <>
           <Row className="border2 mb-4">
             <div className="d-flex justify-content-center gap-4 bg-black">
-              <a href="#main" className="btn2 text-white" onClick={(e) => {setMenu("main");}}>Mains</a>
-              <a href="#starter" className="btn2 text-white" onClick={(e) => {setMenu("starter");}}>Starter</a>
-              <a href="#drink" className="btn2 text-white" onClick={(e) => {setMenu("drink");}}>Drink</a>
+              <button className="btn2 text-white bg-black" onClick={() => setMenu("main")}>Mains</button>
+              <button className="btn2 text-white bg-black" onClick={() => setMenu("starter")}>Starter</button>
+              <button className="btn2 text-white bg-black" onClick={() => setMenu("drink")}>Drink</button>
             </div>
 
             <Col md={12} xs={12}>
